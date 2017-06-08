@@ -14,7 +14,7 @@ node中libuv对于epoll的使用以及线程池对于文件的操作与这里的
 
 ### 使用说明
 编译：gcc -o server -lpthread csapp.c sbuf.c server.c
-命令行输入：./server.c 80 &
+命令行输入：./server.c 80 &  
 测试：ab -n1000 -c10  http://127.0.0.1/test.php
 
 
